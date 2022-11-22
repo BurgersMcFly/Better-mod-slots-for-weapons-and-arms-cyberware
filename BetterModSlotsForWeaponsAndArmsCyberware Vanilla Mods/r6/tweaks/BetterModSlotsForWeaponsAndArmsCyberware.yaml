@@ -1,0 +1,93 @@
+# BetterModSlotsForWeaponsAndArmsCyberware, Cyberpunk 2077 mod that improves weapon and arms cyberware mod slots
+# Copyright (C) 2022 BurgersMcFly
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Items.SimpleWeaponMod01: &AddAllPlacementSlots
+  placementSlots:
+#ArmsCyberware Mods Slot
+    - !append-once AttachmentSlots.ArmsCyberwareGeneralSlot
+#Ranged Weapon Mods Slots
+    - !append-once AttachmentSlots.GenericWeaponMod1
+    - !append-once AttachmentSlots.GenericWeaponMod2
+    - !append-once AttachmentSlots.GenericWeaponMod3
+    - !append-once AttachmentSlots.GenericWeaponMod4
+    - !append-once AttachmentSlots.TechWeaponModEpic
+    - !append-once AttachmentSlots.SmartWeaponModEpic
+    - !append-once AttachmentSlots.PowerWeaponModEpic
+    - !append-once AttachmentSlots.PowerWeaponModLegendary
+    - !append-once AttachmentSlots.TechWeaponModLegendary
+    - !append-once AttachmentSlots.SmartWeaponModLegendary
+    - !append-once AttachmentSlots.IconicWeaponModLegendary
+#Melee Weapon Mods Slots
+    - !append-once AttachmentSlots.MeleeWeaponMod1
+    - !append-once AttachmentSlots.MeleeWeaponMod2
+    - !append-once AttachmentSlots.MeleeWeaponMod3
+    - !append-once AttachmentSlots.IconicMeleeWeaponMod1   
+#Ranged Weapon Mods
+Items.SimpleWeaponMod02: *AddAllPlacementSlots
+Items.SimpleWeaponMod03: *AddAllPlacementSlots
+Items.SimpleWeaponMod04: *AddAllPlacementSlots
+Items.SimpleWeaponMod08: *AddAllPlacementSlots
+Items.SimpleWeaponMod09: *AddAllPlacementSlots
+Items.SimpleWeaponMod10: *AddAllPlacementSlots
+Items.SimpleWeaponMod11: *AddAllPlacementSlots
+Items.SimpleWeaponMod12: *AddAllPlacementSlots
+Items.SimpleWeaponMod13: *AddAllPlacementSlots
+Items.SimpleWeaponMod14: *AddAllPlacementSlots
+Items.SimpleWeaponMod15: *AddAllPlacementSlots
+Items.SimpleWeaponMod16: *AddAllPlacementSlots
+Items.SimpleWeaponMod17: *AddAllPlacementSlots
+Items.PowerWeaponMod01: *AddAllPlacementSlots
+Items.PowerWeaponMod02: *AddAllPlacementSlots
+Items.PowerWeaponMod03: *AddAllPlacementSlots
+Items.PowerWeaponMod04: *AddAllPlacementSlots
+Items.PowerWeaponMod05: *AddAllPlacementSlots
+Items.PowerWeaponMod06: *AddAllPlacementSlots
+Items.PowerWeaponMod07: *AddAllPlacementSlots
+Items.TechWeaponMod01: *AddAllPlacementSlots
+Items.TechWeaponMod02: *AddAllPlacementSlots
+Items.TechWeaponMod03: *AddAllPlacementSlots
+Items.TechWeaponMod04: *AddAllPlacementSlots
+Items.TechWeaponMod05: *AddAllPlacementSlots
+Items.SmartWeaponMod01: *AddAllPlacementSlots    
+Items.SmartWeaponMod02: *AddAllPlacementSlots
+Items.SmartWeaponMod03: *AddAllPlacementSlots
+Items.SmartWeaponMod04: *AddAllPlacementSlots
+Items.SmartWeaponMod05: *AddAllPlacementSlots
+Items.TygerRangedWeaponMod: *AddAllPlacementSlots
+Items.WraithsRangedWeaponMod: *AddAllPlacementSlots
+Items.ValentinosRangedWeaponMod: *AddAllPlacementSlots
+LootTables.Valentinos_LGM_toolbox_inline4: *AddAllPlacementSlots
+LootTables.Base_ma_simple_mods_inline7: *AddAllPlacementSlots
+LootTables.Base_ma_simple_mods_inline1: *AddAllPlacementSlots
+LootTables.TygerClaws_LGM_toolbox_inline4: *AddAllPlacementSlots
+LootTables.TygerClaws_MGM_toolbox_inline4: *AddAllPlacementSlots
+LootTables.Base_ma_simple_mods_inline5: *AddAllPlacementSlots
+LootTables.Base_ma_simple_mods_inline3: *AddAllPlacementSlots
+LootTables.Q103_town_LCM_toolbox_inline6: *AddAllPlacementSlots
+LootTables.Q103_town_LCM_toolbox_inline4: *AddAllPlacementSlots
+LootTables.Wraiths_LGM_toolbox_inline4: *AddAllPlacementSlots
+LootTables.Q103_town_LCM_toolbox_inline2: *AddAllPlacementSlots
+#Melee Weapon Mods
+Items.ValentinosMeleeWeaponMod: *AddAllPlacementSlots
+Items.ArasakaMeleeWeaponMod: *AddAllPlacementSlots
+Items.WraithsMeleeWeaponMod: *AddAllPlacementSlots
+Items.TygerMeleeWeaponMod: *AddAllPlacementSlots
+LootTables.Q103_town_LCM_toolbox_inline10: *AddAllPlacementSlots
+LootTables.Q103_town_LCM_toolbox_inline12: *AddAllPlacementSlots
+LootTables.Q103_town_LCM_toolbox_inline8: *AddAllPlacementSlots
+LootTables.Wraiths_LGM_toolbox_inline6: *AddAllPlacementSlots
+LootTables.TygerClaws_LGM_toolbox_inline6: *AddAllPlacementSlots
+LootTables.TygerClaws_MGM_toolbox_inline6: *AddAllPlacementSlots
