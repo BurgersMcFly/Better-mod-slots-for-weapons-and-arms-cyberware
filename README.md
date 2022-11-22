@@ -1,6 +1,6 @@
 # Better Mod Slots for Weapons and Arms Cyberware
 
-Every ranged and melee weapon mod can be equipped in any weapon and arms cyberware mod slot! [With Weapon Mod Overdrive](https://www.nexusmods.com/cyberpunk2077/mods/1714) support! 
+Every ranged and melee weapon mod can be equipped in any weapon and arms cyberware mod slot! With [Weapon Mod Overdrive](https://www.nexusmods.com/cyberpunk2077/mods/1714) support! 
 
 ![](https://staticdelivery.nexusmods.com/mods/3333/images/6024/6024-1666363736-25981474.jpeg)
 
